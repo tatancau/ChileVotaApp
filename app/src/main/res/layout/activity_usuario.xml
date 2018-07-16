@@ -1,0 +1,263 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context="com.example.sebax.miapp.Usuario">
+<LinearLayout
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical">
+    <ImageView
+        android:layout_width="100dp"
+        android:layout_height="100dp"
+        android:layout_gravity="center"
+        android:src="@drawable/images"/>
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Bienvenido al menu de votacion"
+        android:layout_gravity="center"
+        android:textSize="25dp" />
+    <LinearLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        android:layout_marginTop="-25dp">
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textSize="22dp"/>
+        <TextView
+            android:id="@+id/TVnombre"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textSize="22dp"
+            android:layout_margin="50dp"
+            android:layout_marginTop="-30dp"
+            android:layout_gravity="center"/>
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textSize="22dp"/>
+        <TextView
+            android:id="@+id/TVrut"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"
+            android:textSize="22dp"
+            />
+
+    </LinearLayout>
+    <TextView
+        android:id="@+id/TVCandidato"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Candidatos :"
+        android:textSize="20dp"
+        android:layout_marginTop="-50dp" />
+//Carolina Goic
+<TextView
+    android:id="@+id/TVgoic"
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content"
+    android:text="Carolina"
+    android:layout_marginTop="25dp"/>
+    <TextView
+        android:id="@+id/TVcarolina"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Goic"/>
+    <ImageView
+        android:layout_marginTop="-0dp"
+        android:layout_width="118dp"
+        android:layout_height="80dp"
+        android:src="@drawable/goic"/>
+    <Button
+        android:id="@+id/BTNcarolina"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Carolina Goic"
+        android:layout_marginTop="-20dp"
+        android:layout_marginLeft="-5dp"/>
+
+    //Alejandro Guiller
+    <TextView
+        android:id="@+id/TValejandro"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Alejandro"
+        android:layout_marginTop="25dp"/>
+    <TextView
+        android:id="@+id/TVguiller"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Gullier"/>
+    <ImageView
+        android:layout_marginTop="-0dp"
+        android:layout_width="118dp"
+        android:layout_height="80dp"
+        android:src="@drawable/guiller"/>
+    <Button
+        android:id="@+id/BTNguller"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Alejandro Guiller"
+        android:layout_marginTop="-20dp"
+        android:layout_marginLeft="-5dp"/>
+
+    //Sebastian Piñera
+    <TextView
+        android:id="@+id/TVsebastian"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Sebastian"
+        android:layout_marginTop="25dp"/>
+    <TextView
+        android:id="@+id/TVpiñera"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Piñera"/>
+    <ImageView
+        android:layout_marginTop="-0dp"
+        android:layout_width="118dp"
+        android:layout_height="80dp"
+        android:src="@drawable/seba"/>
+    <Button
+        android:id="@+id/BTNpiñera"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Sebastian Piñera"
+        android:layout_marginTop="-20dp"
+        android:layout_marginLeft="-5dp"/>
+
+    //Beatrin Sanchez
+    <TextView
+        android:id="@+id/TVbeatriz"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Beatriz"
+        android:layout_marginTop="25dp"/>
+    <TextView
+        android:id="@+id/TVsanchez"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Sanchez"/>
+    <ImageView
+        android:layout_marginTop="-0dp"
+        android:layout_width="118dp"
+        android:layout_height="80dp"
+        android:src="@drawable/beatri"/>
+    <Button
+        android:id="@+id/BTNsanchez"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Beatriz Sanchez"
+        android:layout_marginTop="-20dp"
+        android:layout_marginLeft="-5dp"/>
+
+    //Marcos Errique Ominami
+    <TextView
+        android:id="@+id/TVmarcos"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Marcos Enrrique"
+        android:layout_marginTop="25dp"/>
+    <TextView
+        android:id="@+id/TVmeo"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Ominami"/>
+    <ImageView
+        android:layout_marginTop="-0dp"
+        android:layout_width="118dp"
+        android:layout_height="80dp"
+        android:src="@drawable/ominami"/>
+    <Button
+        android:id="@+id/BTNmeo"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Marcos Enrrique Ominami"
+        android:layout_marginTop="-20dp"
+        android:layout_marginLeft="-5dp"/>
+
+    //Juan Antonio Kast
+    <TextView
+        android:id="@+id/TVjuan"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Juan Antonio"
+        android:layout_marginTop="25dp"/>
+    <TextView
+        android:id="@+id/TVkast"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Kas"/>
+    <ImageView
+        android:layout_marginTop="-0dp"
+        android:layout_width="118dp"
+        android:layout_height="80dp"
+        android:src="@drawable/kast"/>
+    <Button
+        android:id="@+id/BTNkast"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Juan Antonio Kast"
+        android:layout_marginTop="-20dp"
+        android:layout_marginLeft="-5dp"/>
+
+    //Alejandro Navarro
+    <TextView
+        android:id="@+id/TVale"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Alejandro"
+        android:layout_marginTop="25dp"/>
+    <TextView
+        android:id="@+id/TVnavarro"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Navarro"/>
+    <ImageView
+        android:layout_marginTop="-0dp"
+        android:layout_width="118dp"
+        android:layout_height="80dp"
+        android:src="@drawable/navarr"/>
+    <Button
+        android:id="@+id/BTNnavarro"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Juan Antonio Kast"
+        android:layout_marginTop="-20dp"
+        android:layout_marginLeft="-5dp"/>
+
+    //Eduardo Artes
+    <TextView
+        android:id="@+id/TVedu"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Eduardo"
+        android:layout_marginTop="25dp"/>
+    <TextView
+        android:id="@+id/TVartes"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Artes"/>
+    <ImageView
+        android:layout_marginTop="-0dp"
+        android:layout_width="118dp"
+        android:layout_height="80dp"
+        android:src="@drawable/arte"/>
+    <Button
+        android:id="@+id/BTNartes"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Eduardo Artes"
+        android:layout_marginTop="-20dp"
+        android:layout_marginLeft="-5dp"/>
+
+</LinearLayout>
+</ScrollView>
